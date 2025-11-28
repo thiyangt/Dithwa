@@ -13,5 +13,5 @@
 #'   \item{RH_%}{Relative humidity percentage at the reporting time}
 #'   \item{report}{Grouping variable to report records}
 #' }
-#' @source Department Of Meteorology
+#' @source Department Of Meteorology, Sri Lanka (https://meteo.gov.lk/)
 "ditwah_3hr_weather_data"
