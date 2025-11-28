@@ -44,3 +44,7 @@ head(ditwah_3hr_weather_data)
 ## Data Visualisation
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+This package was developed for educational purposes using three-hourly
+weather data recorded by the Department of Meteorology, Sri Lanka
+(<https://meteo.gov.lk/> )
