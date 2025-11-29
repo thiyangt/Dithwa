@@ -45,10 +45,6 @@ head(ditwah_3hr_weather_data)
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
-This package was developed for educational purposes using three-hourly
-weather data recorded by the Department of Meteorology, Sri Lanka
-(<https://meteo.gov.lk/> )
-
 ## Flood Level Data
 
     #> # A tibble: 6 × 15
@@ -64,3 +60,12 @@ weather data recorded by the Department of Meteorology, Sri Lanka
     #> #   MinorFloodLevel <dbl>, MajorFloodLevel <dbl>, Remarks <chr>,
     #> #   WaterLevelRising_or_Falling <chr>, Water_Level_Time <chr>,
     #> #   `Water Level` <dbl>, RFmm <dbl>, RFmm_measured_at <chr>
+
+This package was developed for educational purposes using weather data
+recorded by the [Department of Meteorology, Sri
+Lanka](https://meteo.gov.lk/) and [Disaster Management
+Centre](https://www.dmc.gov.lk/index.php?lang=en). The author of the
+package Dr. Thiyanga S. Talagala does not collect or generate the
+original data. All data provided in this package have been obtained from
+publicly available sources and transformed into a tidy format to support
+reproducible and user-friendly analysis.
