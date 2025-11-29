@@ -66,6 +66,14 @@ head(ditwah_3hr_weather_data)
     #> #   Water_Level_Time <chr>, Water_Level <dbl>, RFmm <dbl>,
     #> #   RFmm_measured_at <chr>, Water_Level_DateTime <dttm>
 
+## Load dashboard
+
+``` r
+load_dashboard()
+```
+
+![](dataraw/dashboard.gif)
+
 This package was developed for educational purposes using weather data
 recorded by the [Department of Meteorology, Sri
 Lanka](https://meteo.gov.lk/) and [Disaster Management
