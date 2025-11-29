@@ -72,7 +72,7 @@ head(ditwah_3hr_weather_data)
 load_dashboard()
 ```
 
-![](dataraw/dashboard.gif)
+![](hexsticker/db.png)
 
 This package was developed for educational purposes using weather data
 recorded by the [Department of Meteorology, Sri
