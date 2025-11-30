@@ -66,6 +66,27 @@ head(ditwah_3hr_weather_data)
     #> #   Water_Level_Time <chr>, Water_Level <dbl>, RFmm <dbl>,
     #> #   RFmm_measured_at <chr>, Water_Level_DateTime <dttm>
 
+## Situation Report
+
+``` r
+situation_report_30NOV1600
+#> # A tibble: 25 × 8
+#>    Districts    Families Persons Deaths Missing Safety_centres
+#>    <chr>           <dbl>   <dbl>  <dbl>   <dbl>          <dbl>
+#>  1 Puttlama        36098  135922     NA       2             59
+#>  2 Badulla          7973   32760     71      53            180
+#>  3 Moneragala        968    3346      3       1              5
+#>  4 Matale            806    4836     20      10             40
+#>  5 Colombo         40740  174255      2       1             97
+#>  6 Batticola       16257   47856      2      NA             17
+#>  7 Kegalle           557    2095      2       1             14
+#>  8 Trincomalee     16604   54107     NA      NA             21
+#>  9 Anuradhapura     7429   25800      5      NA             92
+#> 10 Mullaitivu       1550    4592      1      NA            102
+#> # ℹ 15 more rows
+#> # ℹ 2 more variables: Families_safetycentres <dbl>, Persons_safetycentres <dbl>
+```
+
 ## Load dashboard
 
 ``` r
@@ -78,7 +99,7 @@ This package was developed for educational purposes using weather data
 recorded by the [Department of Meteorology, Sri
 Lanka](https://meteo.gov.lk/), [Disaster Management
 Centre](https://www.dmc.gov.lk/index.php?lang=en) and Hydrology and
-Disaster Management Division, Irrigation Department, Sri Laka. All data
+Disaster Management Division, Irrigation Department, Sri Lanka. All data
 provided in this package have been obtained from publicly available
 sources and transformed into a tidy format to support reproducible and
 user-friendly analysis.

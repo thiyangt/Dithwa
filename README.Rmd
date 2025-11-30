@@ -66,6 +66,12 @@ ditwah_3hr_weather_data |>
 flood_water_level
 ```
 
+## Situation Report
+
+```{r}
+situation_report_30NOV1600
+```
+
 ## Load dashboard
 
 ```r
